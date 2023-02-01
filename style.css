@@ -16,7 +16,7 @@ body {
   text-align: center;
 }
 
-.button-randomize-start {
+.button-randomizer-start {
   align-items: center;
   appearance: none;
   background-clip: padding-box;
@@ -54,17 +54,17 @@ body {
 }
 
 @media (min-width: 768px) {
-  .button-randomaize-start {
+  .button-randomaizer-start {
     padding: 19px 32px;
   }
 }
 
-.button-randomize-start:before,
-.button-randomize-start:after {
+.button-randomizer-start:before,
+.button-randomizer-start:after {
   border-radius: 80px;
 }
 
-.button-randomize-start:before {
+.button-randomizer-start:before {
   background-color: rgba(249, 58, 19, .32);
   content: "";
   display: block;
@@ -77,7 +77,7 @@ body {
   z-index: -2;
 }
 
-.button-randomize-start:after {
+.button-randomizer-start:after {
   background-color: initial;
   background-image: linear-gradient(92.83deg, #ff7426 0, #f93a13 100%);
   bottom: 4px;
@@ -92,7 +92,7 @@ body {
   z-index: -1;
 }
 
-.button-randomize-start:hover:not(:disabled):after {
+.button-randomizer-start:hover:not(:disabled):after {
   bottom: 0;
   left: 0;
   right: 0;
@@ -100,11 +100,11 @@ body {
   transition-timing-function: ease-in;
 }
 
-.button-randomize-start:active:not(:disabled) {
+.button-randomizer-start:active:not(:disabled) {
   color: #ccc;
 }
 
-.button-randomize-start:active:not(:disabled):after {
+.button-randomizer-start:active:not(:disabled):after {
   background-image: linear-gradient(0deg, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), linear-gradient(92.83deg, #ff7426 0, #f93a13 100%);
   bottom: 4px;
   left: 4px;
@@ -112,7 +112,7 @@ body {
   top: 4px;
 }
 
-.button-randomize-start:disabled {
+.button-randomizer-start:disabled {
   cursor: default;
   opacity: .24;
 }
