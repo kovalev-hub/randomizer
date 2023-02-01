@@ -1,4 +1,4 @@
-const BUTTONSTART = document.querySelector(`.button-randomize-start`);
+const BUTTONSTART = document.querySelector(`.button-randomizer-start`);
 const RESULT = document.querySelector(`.randomizer-result`);
 
 BUTTONSTART.addEventListener(`click`, function () {
