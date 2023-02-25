@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
 body {
   margin: 0;
   padding: 0;
@@ -20,7 +22,7 @@ body {
 
 h1 {
   margin: 0 auto;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Russo One', sans-serif;
   font-size: 50px;
   font-weight: bold;
   text-align: center;
@@ -29,7 +31,7 @@ h1 {
 .randomizer-description {
   margin: 0 auto;
   margin-top: 1.5rem;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Russo One', sans-serif;
   font-size: 18px;
   font-weight: normal;
   text-align: center;
@@ -37,7 +39,7 @@ h1 {
 
 .randomizer-result {
   margin: 3rem auto;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Russo One', sans-serif;
   font-size: 50px;
   font-weight: bold;
   text-align: center;
@@ -57,7 +59,7 @@ h1 {
   padding: 19px 26px;
   width: auto;
   min-height: 64px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Russo One', sans-serif;
   font-size: 16px;
   font-weight: 800;
   line-height: 24px;
