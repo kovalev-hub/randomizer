@@ -1,8 +1,8 @@
-const BUTTONSTART = document.querySelector(`.button-randomizer-start`);
-const RESULT = document.querySelector(`.randomizer-result`);
+const STARTBUTTON = document.querySelector(`.primary-button`);
+const RANDOMIZERRESULT = document.querySelector(`.randomizer-result`);
 
-BUTTONSTART.addEventListener(`click`, function () {
-  let randomizerRandge = prompt(`Enter randomizer range:`);
-  randomizerRandge = Number(randomizerRandge);
-  RESULT.innerHTML = Math.floor(Math.random() * randomizerRandge);
+STARTBUTTON.addEventListener(`click`, function () {
+  let randomizerRange = prompt(`Enter randomizer range:`);
+  randomizerRange = Number(randomizerRange);
+  RANDOMIZERRESULT.innerHTML = Math.floor(Math.random() * randomizerRange);
 })
